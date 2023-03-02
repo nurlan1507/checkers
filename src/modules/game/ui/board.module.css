@@ -1,0 +1,40 @@
+.board{
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(80px * 8);
+    width: calc(80px * 8);
+}
+
+.cell{
+    width:80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectedCell{
+    background-color: brown;
+}
+.white{
+    background-color: #eeeed2;
+}
+.black{
+    background-color: #769656;
+}
+
+
+.checker{
+    width: 64px;
+    height: 64px;
+}
+
+.checker-white{
+    background-image: url("../assets/red-pawn.png");
+    background-size: cover;
+}
+.checker-black{
+    background-image: url("../assets/blue-pawn.png");
+    background-size: cover;
+}
+
